@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+<form action="//.action.jpg">
+
+<label for="user">Username</label>
+    <input type="text" id = "user" placeholder="enter Username">
+
+<br><br>
+<label for = "password">Password</label> 
+    <input type="password" id = "password" >
+
+<br><br>
+<fieldset>
+<label for="radio">Class X</label>
+<input type="radio" value = "classX" name = "class" id = "radio" >
+<br><br>
+<label for="radio1">Class XII</label>
+<input type="radio" value = "class XII" name = "class" id = "radio1">
+</fieldset>
+<br>
+
+<label for="male">
+    <input type="radio" value = "male" name = "gender" id = "male" >Male
+</label>
+<br>
+<label for="female">
+    <input type="radio" value = "female" name = "gender" id = "female" >Female
+</label>
+<br>
+<label for="third">
+    <input type="radio" value = "third gender" name = "gender" id = "third">Other
+</label>
+<br><br>
+<label for="choose">Select youe city</label>
+<select name="city" id="choose">
+    <option value="" placeholder="select city">--select city--</option>
+    <option value="delhi">Delhi</option>
+    <option value="kolkata">Kolkata</option>
+    <option value = "mumbai">Mumbai</option>
+</select>
+<br><br>
+
+<button id = "button">Submit</button>
+<br><br>
+
+<label for="feedback">Feedback</label>
+<br>
+
+<textarea name="textarea" id="feedback" cols="20" rows="10" placeholder="enter your feedback for improving us"></textarea>
+
+
+
+</form>
+
+<script src = "event.js"></script>
+</body>
+</html>
